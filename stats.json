@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---blog-polymer-vs-react-comparison-between-javascript-libraries": [
+      "path---blog-polymer-vs-react-comparison-between-javascript-libraries-051dd564096c3bb31175.js",
+      "path---blog-polymer-vs-react-comparison-between-javascript-libraries-051dd564096c3bb31175.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-3d9f8da2885f2a6cbfbf.js",
+      "component---src-pages-index-js-3d9f8da2885f2a6cbfbf.js.map"
+    ],
+    "path---blog": [
+      "path---blog-a0e39f21c11f6a62c5ab.js",
+      "path---blog-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-87a9af7979e55a2019fe.js",
+      "component---src-templates-blog-post-js-87a9af7979e55a2019fe.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-0263cd9f18378913b416.js",
+      "component---src-layouts-index-js-0263cd9f18378913b416.js.map"
+    ],
+    "path---blog-hello-world": [
+      "path---blog-hello-world-6a1cb5eac737298a6c42.js",
+      "path---blog-hello-world-6a1cb5eac737298a6c42.js.map"
+    ],
+    "path---index": [
+      "path---index-207c2269e4bb45a252b6.js",
+      "path---index-207c2269e4bb45a252b6.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-6e82eaae3f56c620a9ec.js",
+      "build-js-styles.css",
+      "commons-6e82eaae3f56c620a9ec.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---blog-our-existence-in-internet": [
+      "path---blog-our-existence-in-internet-351d19594114d9bf367d.js",
+      "path---blog-our-existence-in-internet-351d19594114d9bf367d.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-blog-js": [
+      "component---src-pages-blog-js-1a8e34ed229812aa0a7b.js",
+      "component---src-pages-blog-js-1a8e34ed229812aa0a7b.js.map"
+    ],
+    "app": [
+      "app-0b8dedf7af26fc95959b.js",
+      "build-js-styles.css",
+      "app-0b8dedf7af26fc95959b.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

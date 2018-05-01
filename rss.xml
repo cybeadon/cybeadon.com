@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Cybeadon]]></title><description><![CDATA[Tech blog to show case things that we do.]]></description><link>https://cybeadon.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 01 May 2018 16:02:16 GMT</lastBuildDate><item><title><![CDATA[Polymer vs React - Comparison between JavaScript Libraries]]></title><description><![CDATA[With recent advancements in technologies, the web no longer serves just static content. Thanks to JavaScript, websites became web apps…]]></description><link>https://cybeadon.com/blog/polymer-vs-react-comparison-between-javascript-libraries/</link><guid isPermaLink="false">https://cybeadon.com/blog/polymer-vs-react-comparison-between-javascript-libraries/</guid><pubDate>Tue, 13 Jun 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;With recent advancements in technologies, the web no longer serves just static content. Thanks to JavaScript, websites became web apps providing dynamic content. There are lots of JavaScript libraries and frameworks available in the market for building dynamic web apps.&lt;/p&gt;
+&lt;p&gt;Some of the popular libraries like &lt;code class=&quot;language-text&quot;&gt;Polymer&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;React&lt;/code&gt; allows developers to create components composed of data and UI. Having experience in both libraries we will compare both of them in this article.&lt;/p&gt;
+&lt;h3&gt;React&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://facebook.github.io/react/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;React&lt;/a&gt; is a JavaScript library developed by &lt;a href=&quot;https://code.facebook.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;facebook&lt;/a&gt; that helps developers to build UI components declaratively. React components can be written in &lt;a href=&quot;https://facebook.github.io/react/docs/introducing-jsx.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;JSX&lt;/a&gt; which is a syntax extension of JavaScript. JSX enables user to write HTML within JavaScript.&lt;/p&gt;
+&lt;h3&gt;Polymer&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.polymer-project.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Polymer&lt;/a&gt; is a JavaScript library developed by &lt;a href=&quot;https://developers.google.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google&lt;/a&gt; that helps developers to create reusable HTML elements based on &lt;a href=&quot;https://www.webcomponents.org/introduction&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Web Components&lt;/a&gt; standards. Polymer allows developer to harness the power of Web Components for building a future proof apps.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The below table indicates a comparison between React and Polymer.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Polymer&lt;/th&gt;
+&lt;th&gt;React&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://www.polymer-project.org/images/logos/p-logo.png&quot; alt=&quot;Polymer Logo&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://scontent.fblr8-1.fna.fbcdn.net/v/t39.2365-6/11057038_1603675009889853_2020621244_n.png?_nc_cat=0&amp;#x26;oh=f4b53cd1462bba7e15347e3ac84f59b4&amp;#x26;oe=5B8DC10B&quot; alt=&quot;React Logo&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Popularity&lt;/strong&gt;
+ (Number of GitHub Stars)&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/polymer/polymer&quot; data-icon=&quot;octicon-star&quot; data-show-count=&quot;true&quot; data-size=&quot;large&quot; aria-label=&quot;Star polymer/polymer on GitHub&quot;&gt;
+Star
+&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/facebook/react&quot; data-icon=&quot;octicon-star&quot; data-show-count=&quot;true&quot; data-size=&quot;large&quot; aria-label=&quot;Star facebook/react on GitHub&quot;&gt;
+Star
+&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Server Side Rendering&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes (with 
+&lt;a href=&quot;https://nodejs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Node.js&lt;/a&gt;
+)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Compliant to Web Components standard&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Data Flow&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Between parent and child components (two-way binding)&lt;/td&gt;
+&lt;td&gt;Only from parent to child component (one-way binding)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Support Channel&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://polymer.slack.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;slack&lt;/a&gt;
+, 
+&lt;a href=&quot;https://stackoverflow.com/questions/tagged/polymer&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;stack overflow&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://discord.gg/0ZcbPKXt5bZjGY5n&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;discord&lt;/a&gt;
+, 
+&lt;a href=&quot;https://discuss.reactjs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;forum&lt;/a&gt;
+, 
+&lt;a href=&quot;http://stackoverflow.com/questions/tagged/reactjs&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;stack overflow&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tooling Support&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Less&lt;/td&gt;
+&lt;td&gt;Huge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Browser Support&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Chrome (Native). 
+&lt;br /&gt;
+ Firefox, Safari 9+, IE 11+, and Edge (Using polyfills)&lt;/td&gt;
+&lt;td&gt;Chrome, Firefox, Safari, IE 9+, and Edge (By compiling ES6 to ES5)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Notable Sites Using&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://translate.google.com/community&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google Translate Community&lt;/a&gt;
+, 
+&lt;a href=&quot;https://play.google.com/music/listen&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Google Music&lt;/a&gt;
+, 
+&lt;a href=&quot;http://www.ea.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EA&lt;/a&gt;
+, 
+&lt;a href=&quot;https://divshot.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Divshot&lt;/a&gt;
+, 
+&lt;a href=&quot;https://gaming.youtube.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Youtube Gaming&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://facebook.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Facebook&lt;/a&gt;
+, 
+&lt;a href=&quot;https://feedly.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Feedly&lt;/a&gt;
+, 
+&lt;a href=&quot;https://www.fiverr.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Fiverr&lt;/a&gt;
+, 
+&lt;a href=&quot;https://www.flipkart.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Flipkart&lt;/a&gt;
+, 
+&lt;a href=&quot;https://instagram.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instagram&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Which library should you use?&lt;/h3&gt;
+&lt;p&gt;Polymer provides an easy way of creating custom components and adheres to Web Components standard wheres react takes advantage of its &lt;code class=&quot;language-text&quot;&gt;virtual DOM&lt;/code&gt; implementation which renders the DOM blazing fast.&lt;/p&gt;
+&lt;p&gt;If you want to build future-proof apps that support modern browser, Polymer is your choice. If you want to build an app with rich data, you can go for React. Also check for the availability of community built components for &lt;a href=&quot;https://www.npmjs.com/browse/keyword/react&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;React&lt;/a&gt; and &lt;a href=&quot;https://www.webcomponents.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Polymer&lt;/a&gt;, before starting to build it on your own.&lt;/p&gt;
+&lt;h3&gt;Final Thoughts&lt;/h3&gt;
+&lt;p&gt;Using Polymer components inside a React component and vice versa is practically possible, but not usually preferred. More information available about using Web Components within React is available in React &lt;a href=&quot;https://facebook.github.io/react/docs/web-components.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;documentation&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;The quality of the application that you build brings more value irrespective of the framework that you use. So try focusing more on building the application rather than focusing on the library that you use. Want to explore more JavaScript front-end frameworks? Checkout this &lt;a href=&quot;https://github.com/showcases/front-end-javascript-frameworks&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;collection&lt;/a&gt; of JavaScript frameworks build by &lt;a href=&quot;https://github.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Decided a library to use in your next project? Share your thoughts in the comments section below.&lt;/p&gt;
+&lt;script async defer src=&quot;https://buttons.github.io/buttons.js&quot;&gt;&lt;/script&gt;</content:encoded></item><item><title><![CDATA[Our existence in the Internet]]></title><description><![CDATA[An overview of various tools and services that were used for building and hosting this website is provided. It is strongly  recommended  to…]]></description><link>https://cybeadon.com/blog/our-existence-in-internet/</link><guid isPermaLink="false">https://cybeadon.com/blog/our-existence-in-internet/</guid><pubDate>Thu, 18 May 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;An overview of various tools and services that were used for building and hosting this website is provided. It is strongly &lt;strong&gt;recommended&lt;/strong&gt; to take a look at it.&lt;/p&gt;
+&lt;h3&gt;Jekyll&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot; title=&quot;Jekyll&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Jekyll&lt;/a&gt; is an open source blog-aware static site generator written in &lt;a href=&quot;https://www.ruby-lang.org/&quot; title=&quot;Ruby&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ruby&lt;/a&gt;.
+Knowledge of programming in Ruby is not needed for building sites in Jekyll. Jekyll is a command line utility that can be used in any machines installed with ruby.
+Posts can be written in &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot; title=&quot;Markdown&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Markdown&lt;/a&gt; format and customize it with just HTML and CSS knowledge.
+Sites built using Jekyll can be hosted using any static server. Also it can be hosted in &lt;a href=&quot;https://pages.github.com&quot; title=&quot;Github Pages&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Github pages&lt;/a&gt; for free.&lt;/p&gt;
+&lt;h3&gt;GoDaddy&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://godaddy.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GoDaddy&lt;/a&gt; is a web hosting and domain registrar company. It is a widely used service for domain registration.
+In addition to that, they also provide professional email, WordPress hosting and much more services. The domain name for this &lt;a href=&quot;https://cybeadon.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;website&lt;/a&gt; has been registered with GoDaddy.&lt;/p&gt;
+&lt;h3&gt;Cloudflare&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cloudflare.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Cloudflare&lt;/a&gt; is a company providing Security as a Service (Not to be confused with Software as a Service). They provide various services like Domain Name Server (DNS), Content Delivery Network (CDN) for websites. They also provide a basic SSL protection for free of charge.&lt;/p&gt;
+&lt;h3&gt;GitHub&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GitHub&lt;/a&gt; is an online Git repository hosting service. A software developer might have heard of GitHub already. It is most commonly used website to host Open Source software and libraries. GitHub offers unlimited public repositories for free and private repositories for a reasonable price. GitHub provides &lt;code class=&quot;language-text&quot;&gt;pages&lt;/code&gt; service using which a small website for user/organisation/project can be hosted for free. This site is hosted using &lt;a href=&quot;https://pages.github.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Disqus&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://disqus.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Disqus&lt;/a&gt; is a blog comment hosting service. Disqus can be integrated easily with various services like &lt;code class=&quot;language-text&quot;&gt;Wordpress&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Tumblr&lt;/code&gt; and also for most static site generators like &lt;code class=&quot;language-text&quot;&gt;Jekyll&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Hexo&lt;/code&gt; and so on.
+It adapts well both in mobile and web. It also offers upvotes, downvotes, threaded replies to the comments.&lt;/p&gt;
+&lt;p&gt;A basic overview of the tools and services that used for building and hosting this blog is given. Love the way that is used for our existence on the internet. &lt;em&gt;Share your &lt;strong&gt;comments&lt;/strong&gt; below.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World!]]></title><description><![CDATA[Wondering what is written in the above encoded codes? Hmm!! It’s not that hard. If you haven’t find it yet, will give you a clue. It is a…]]></description><link>https://cybeadon.com/blog/hello-world/</link><guid isPermaLink="false">https://cybeadon.com/blog/hello-world/</guid><pubDate>Fri, 21 Apr 2017 18:44:26 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100 00100001&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Wondering what is written in the above encoded codes?&lt;/p&gt;
+&lt;p&gt;Hmm!! It’s not that hard. If you haven’t find it yet, will give you a clue. It is a statement used by most of the programming languages to &lt;code class=&quot;language-text&quot;&gt;greet&lt;/code&gt; the programmer when they meet for the first time.&lt;/p&gt;
+&lt;p&gt;Yes. You have got it. It’s &lt;code class=&quot;language-text&quot;&gt;Hello World!&lt;/code&gt;, whose characters are written in binary.&lt;/p&gt;
+&lt;p&gt;Kudos. Hello World 👋 🌏. Nice to meet you via this blog post.&lt;/p&gt;
+&lt;h3&gt;Who are we?&lt;/h3&gt;
+&lt;p&gt;Our crew includes a &lt;a href=&quot;https://github.com/sasivarnan&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;developer&lt;/a&gt; and some computers that are running locally and in the cloud.&lt;/p&gt;
+&lt;p&gt;We love ❤️ programming 💻 and various technologies around it.&lt;/p&gt;
+&lt;h3&gt;What is this site for?&lt;/h3&gt;
+&lt;p&gt;The purpose of this site is to showcase various things that we build and various technologies that we experienced and experimented.&lt;/p&gt;
+&lt;p&gt;We gonna share a series of &lt;code class=&quot;language-text&quot;&gt;programming tech&lt;/code&gt; tutorials and guides.&lt;/p&gt;
+&lt;p&gt;And we use various open source technologies :octocat: in our day to day life. We love to share about them too.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Should I follow this blog?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If you are a one of the &lt;code class=&quot;language-text&quot;&gt;geek&lt;/code&gt; who is interested in the any of the above things, you can follow this blog.&lt;/p&gt;
+&lt;p&gt;Follow us on &lt;a href=&quot;https://facebook.com/cybeadon&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;facebook&lt;/a&gt; &amp;#x26; &lt;a href=&quot;https://twitter.com/cybeadon&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;twitter&lt;/a&gt;. If you use &lt;a href=&quot;https://feedly.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;feedly&lt;/a&gt; or any &lt;code class=&quot;language-text&quot;&gt;RSS&lt;/code&gt; reader, &lt;a href=&quot;/rss.xml&quot;&gt;subscribe&lt;/a&gt; to our blog.&lt;/p&gt;
+&lt;p&gt;We are excited to write a lot. What should we write about?
+We love to hear from you. Reach us with the comment section below.&lt;/p&gt;</content:encoded></item></channel></rss>
